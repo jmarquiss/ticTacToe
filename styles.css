@@ -1,0 +1,80 @@
+#BtnNewGame{
+  clear:both;
+  float: left;
+  text-align: Center;
+}
+.Score{
+  clear:both;
+  float: left;
+  text-align: Center;
+  font-size: 90px;
+  line-height: 100px;
+  display:none;
+}
+.Box{
+  display:none;
+  background-color: #FF69B4;
+  width: 25%;
+  height:20%;
+  margin: 5px;
+  float: left;
+  text-align: Center;
+  font-size: 90px;
+  color: #FFF;
+  position:relative;
+}
+
+#ML,
+#BL {
+  clear: both;
+}
+
+@keyframes argh-my-eyes {
+  0% {
+	background-color: #fff;
+  }
+  19% {
+	background-color: #fff;
+  }
+  20% {
+	background-color: #4B0082;
+  }
+  49% {
+	background-color: #4B0082;
+  }
+  50% {
+	background-color: #0F0;
+  }
+  79% {
+	background-color: #0F0;
+  }
+  80% {
+	background-color: #0ff;
+  }
+  99% {
+	background-color: #0ff;
+  }
+  100% {
+	background-color: #fff;
+  }
+}
+
+body {
+  animation: argh-my-eyes 5s infinite;
+}
+
+@keyframes Box {
+  0% {
+	background-color: #000;
+  }
+  50% {
+	background-color: #FF69B4;
+  }
+  100% {
+	background-color: #FF69B4;
+  }
+}
+
+.Box {
+  animation: Box 4s infinite;
+}
